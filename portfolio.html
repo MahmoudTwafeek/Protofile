@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Mahmoud Tawfeek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="hero-header">
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-m"></i>
+          <div class="logo-text">Mahmoud Tawfeek</div>
+        </div>
+
+        <nav>
+          <div class="togglebtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="portfolio.html">Portfolio</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="page">
+        <div class="page-header">
+          <h1>Portfolio</h1>
+          <p>Recent projects, highlights, and a quick introduction.</p>
+        </div>
+
+        <section class="section" id="about">
+          <div class="section-header">
+            <h2>About</h2>
+            <p>Replace this text with your introduction and story.</p>
+          </div>
+
+          <div class="grid two">
+            <article class="card">
+              <div class="card-title">Introduction</div>
+              <p class="card-text">
+                I’m Mahmoud Tawfeek, a frontend developer who loves building modern, fast, and responsive websites. I focus on clean UI, smooth interactions, and writing maintainable code.
+              </p>
+              <p class="card-text">
+                I enjoy turning ideas into real products, improving user experience, and solving problems with simple and efficient solutions.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-title">What I Do</div>
+              <div class="chips">
+                <span class="chip">Responsive UI</span>
+                <span class="chip">Landing Pages</span>
+                <span class="chip">Web Apps</span>
+                <span class="chip">UI/UX</span>
+                <span class="chip">Performance</span>
+                <span class="chip">Accessibility</span>
+              </div>
+              <div class="card-divider"></div>
+              <p class="card-text">
+                I build interfaces using modern HTML/CSS/JavaScript, and I care about details like spacing, typography, and consistency.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2>Recent Projects</h2>
+            <p>Latest work I’ve recently done.</p>
+          </div>
+
+          <div class="grid two">
+            <article class="card project-card">
+              <img
+                class="project-img"
+                alt="Wazfney project preview"
+                src="wazfney.png"
+              />
+              <div class="project-body">
+                <div class="card-title">Wazfney</div>
+                <div class="card-meta">Job Search • UI • Responsive</div>
+                <p class="card-text">
+                  A job searching experience focused on clean filtering, readable listings, and a modern layout that looks great on mobile and desktop.
+                </p>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <img
+                class="project-img"
+                alt="Saknely project preview"
+                src="saknely.png"
+              />
+              <div class="project-body">
+                <div class="card-title">Saknely</div>
+                <div class="card-meta">Real Estate • UX • UI</div>
+                <p class="card-text">
+                  A rental browsing UI with strong visual hierarchy, fast scanning, and consistent components for property listings and details.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <h2>Highlights</h2>
+            <p>Quick numbers that summarize my work.</p>
+          </div>
+
+          <div class="grid">
+            <article class="card stat">
+              <div class="stat-value">3+</div>
+              <div class="stat-label">Years Experience</div>
+            </article>
+            <article class="card stat">
+              <div class="stat-value">11+</div>
+              <div class="stat-label">Projects Built</div>
+            </article>
+            <article class="card stat">
+              <div class="stat-value">100%</div>
+              <div class="stat-label">Problem Solving</div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

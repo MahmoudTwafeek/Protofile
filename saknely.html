@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saknely | Mahmoud Tawfeek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="hero-header">
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-m"></i>
+          <div class="logo-text">Mahmoud Tawfeek</div>
+        </div>
+
+        <nav>
+          <div class="togglebtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="portfolio.html">Portfolio</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="page">
+        <div class="page-header">
+          <h1>Saknely</h1>
+          <p>Real estate browsing UI focused on clarity and strong visual hierarchy.</p>
+        </div>
+
+        <section class="grid two">
+          <article class="card project-card">
+            <img
+              class="project-img"
+              alt="Saknely project preview"
+              src="saknely.png"
+            />
+            <div class="project-body">
+              <div class="card-title">Preview</div>
+              <p class="card-text">A modern UI concept preview for the Saknely project.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-title">Overview</div>
+            <p class="card-text">
+              Saknely is built around helping users browse rentals quickly: strong card hierarchy, simple filters, and consistent UI patterns for listing and detail views.
+            </p>
+            <div class="card-divider"></div>
+            <div class="card-title">Key Features</div>
+            <div class="chips">
+              <span class="chip">Listing Cards</span>
+              <span class="chip">Filters</span>
+              <span class="chip">Map Preview</span>
+              <span class="chip">Responsive UI</span>
+            </div>
+            <div class="card-divider"></div>
+            <a class="btn" href="portfolio.html">Back to Portfolio</a>
+          </article>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

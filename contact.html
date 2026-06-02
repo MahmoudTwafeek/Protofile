@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Mahmoud Tawfeek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="hero-header">
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-m"></i>
+          <div class="logo-text">Mahmoud Tawfeek</div>
+        </div>
+
+        <nav>
+          <div class="togglebtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="page">
+        <div class="page-header">
+          <h1>Contact</h1>
+          <p>Send a message or reach me on social media.</p>
+        </div>
+
+        <section class="grid two">
+          <article class="card">
+            <div class="card-title">Message</div>
+            <form class="contact-form">
+              <label class="field">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="name@example.com" />
+              </label>
+              <label class="field">
+                <span>Message</span>
+                <textarea name="message" rows="5" placeholder="Write your message..."></textarea>
+              </label>
+              <button class="btn active" type="button">Send Message</button>
+            </form>
+          </article>
+
+          <article class="card">
+            <div class="card-title">Links</div>
+            <p class="card-text">Connect with me:</p>
+            <div class="contact-lines">
+              <a class="contact-line" href="https://wa.me/201285495511" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>+201285495511</span>
+              </a>
+              <a class="contact-line" href="mailto:mtawfeek246@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>mtawfeek246@gmail.com</span>
+              </a>
+            </div>
+            <div class="social large">
+              <a href="https://www.facebook.com/profile.php?id=61562733366098" target="_blank" rel="noopener">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/mahmoud-tawfeek-842a45371/" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/mahmoud.m.maea/" target="_blank" rel="noopener">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
